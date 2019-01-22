@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_fName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_register"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="FirstName"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/et_lName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="LastName"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_lName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="@string/Entertheemail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_Email"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_confirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="confirmpassword"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/simpleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_confirmPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleSpinner"
+        android:layout_margin="20dp"
+        android:checked="false"
+        android:padding="10dp"
+        android:text="By clicking,I agree to terms and conditions"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CheckBox"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:background="@color/colorPrimary"
+
+
+        />
+
+</RelativeLayout>

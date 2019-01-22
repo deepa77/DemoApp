@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="welcome_to_nast">Welcome to nast</string>
+    <string name="register">Register</string>
+    <string name="login">login</string>
+    <string name="Entertheemail">Enter the email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="todo">TODO</string>
+    <string name="enter_name">Enter name</string>
+    <string name="add_user">Add user</string>
+    <string name="viewdata">viewData</string>
+    <string name="enterthepassword">Enterthepassword</string>
+    <string name="current_name">current name</string>
+    <string name="new_name">New name</string>
+    <string name="update">update</string>
+    <string name="enter_name_to_delete">Enter name to delete</string>
+    <string name="delete">Delete</string>
+</resources>
